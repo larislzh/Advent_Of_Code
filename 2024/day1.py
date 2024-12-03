@@ -1020,16 +1020,18 @@ total_distance = 0
 ## Checking for difference between the ordered list at each iteration
 for i in range(len(left_arr)):
 
+    ## As we are just finding the difference, no need to use if statements to check, just check for absolute value of the differences
     difference = (abs(left_arr[i] - right_arr[i]))
     total_distance += difference
 
 ## Part 1 answer
-print("Total distance: " , total_distance)
+print("Total distance:" , total_distance)
 
 
 
 similarity_score = 0
 
+## Loop through each number from left_arr against each number from right_arr to compare and count number of similarities
 for i in range(len(left_arr)):
     
     multiplication_count = 0
@@ -1043,4 +1045,4 @@ for i in range(len(left_arr)):
 
 
 ## Part 2 answer
-print("Similarity score: " , similarity_score)
+print("Similarity score:" , similarity_score)
