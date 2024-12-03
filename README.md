@@ -1,1 +1,3 @@
-# Advent_Of_Code_2024
+# Advent_Of_Code
+
+This is to record my approach to advent of code
